@@ -1,0 +1,113 @@
+.main {
+    background-color: #F7ECE7;
+    padding-top: 2.2rem;
+    text-align: center;
+
+    &__title {
+        font-style: normal;
+        font-weight: lighter;
+        text-align: center;
+        font-size: 2.2rem;
+        color: #D9BBBB;
+        margin-bottom: 0.8rem;
+        margin-top: 1rem;
+    }
+
+    &__button {
+        text-align: center;
+        padding: 1rem;
+
+        a {
+            text-decoration: none;
+            background-color: #F6F5F3;
+            font-size: 1rem;
+            text-transform: uppercase;
+            padding: 1rem;
+            border-radius: 0.2rem;
+            display: inline-block;
+            color: #575756;
+
+            &:hover {
+                background-color: #575756;
+                color: #F7ECE7;
+            }
+        }
+    }
+
+    &__second {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 1rem;
+
+        .contenedor-img {
+            background-image: url("../Images/bodyblanco.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 359px;
+            width: 275px;
+            border-radius: 15px;
+
+            &:hover {
+                background-image: url("../Images/bodyblancoV.jpg");
+                background-position: contain;
+
+            }
+        }
+
+        .contenedor-frase {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #575757;
+            transition: 2s all;
+            font-size: 2rem;
+
+            &:hover {
+                transform: scale(1.3);
+            }
+        }
+
+        .contenedor-img2 {
+            background-image: url("../Images/bodynegro.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 359px;
+            width: 275px;
+            border-radius: 15px;
+
+            &:hover {
+                background-image: url("../Images/bodynegroV.jpg");
+                background-position: contain
+            }
+        }
+    }
+}
+
+@media (max-width:538px) {
+    .main {
+        &__second {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .contenedor-img {
+                width: 192px;
+                height: 251px;
+            }
+
+            .contenedor-img2 {
+                width: 192px;
+                height: 251px;
+            }
+
+            .contenedor-frase {
+                font-size: 1.3rem;
+                padding: 1rem;
+            }
+        }
+    }
+}
