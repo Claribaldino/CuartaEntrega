@@ -538,32 +538,8 @@
   margin-bottom: 2rem;
 }
 
-.maincontacto__contactClair .contactForm {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  margin-left: 2rem;
-}
-
 .maincontacto__contactClair .jean {
   border-radius: 15px;
-}
-
-.maincontacto__contactClair .imgjean {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 @media (max-width: 800px) {
@@ -576,6 +552,13 @@
   .maincontacto .contactForm {
     text-align: center;
     width: 100%;
+    padding-top: 1rem;
+  }
+  .maincontacto .maincontacto__mobile {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -884,5 +867,23 @@
 
 .mainhandmade__handmademeans .estriasimg {
   border-radius: 3rem;
+}
+
+@media (max-width: 500px) {
+  .mainhandmade .mainhandmade__handmademeans {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mainhandmade .title {
+    padding-left: 4rem;
+  }
+  .mainhandmade .estrias {
+    padding-left: 3rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

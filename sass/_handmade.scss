@@ -64,4 +64,17 @@
             border-radius: 3rem;
         }
     }
-}
+    @media (max-width:500px) {
+
+        .mainhandmade__handmademeans {
+            display: flex;
+            flex-direction: column;
+        }
+        .title {
+          padding-left: 4rem;
+        }
+        .estrias {
+            padding-left: 3rem;
+          }
+    }
+    }

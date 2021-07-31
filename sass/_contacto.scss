@@ -51,20 +51,8 @@
             margin-bottom: 2rem;
         }
 
-        .contactForm {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            width: 100%;
-            margin-left: 2rem;
-        }
-
         .jean {
             border-radius: 15px;
-        }
-        .imgjean {
-            display: flex;
-            align-items: center;
         }
     }
 
@@ -78,6 +66,10 @@
         .contactForm {
             text-align: center;
             width: 100%;
+            padding-top: 1rem;
+        }
+        .maincontacto__mobile {
+            flex-direction: column;
         }
     }
 }
