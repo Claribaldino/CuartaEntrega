@@ -41,17 +41,16 @@
 
         &__title {
             font-size: 5rem;
-            background-color: #F6F5F3;
             color: #575757;
             text-align: center;
         }
 
         &__text {
-            font-size: 1.2rem;
-            color: #202020;
+            font-size: 1rem;
+            color: #575757;
             font-weight: bold;
-            text-align: justify;
-
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.6);
         }
 
         &__mision {
@@ -65,6 +64,9 @@
             background-color: #D9BBBB;
             border-radius: 1.5rem;
             margin: 0;
+            background-color: rgba(236, 164, 198, 0.603);
+            font-weight: bold;
+            color: #575757;
         }
     }
 }

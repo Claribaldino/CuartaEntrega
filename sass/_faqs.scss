@@ -43,18 +43,25 @@
             padding-bottom: 1.3rem;
         }
 
-        .accordion-item {
-            color: #575756;
-        }
-
         .accordion-button {
             color: #D9BBBB;
             background-color: #575756;
             border-radius: 0.3rem;
+            border-color: white;
+            &:hover {
+                    color: #D9BBBB;
+            }
+        }
+
+        .accordion-body {
+            color: #575756;
+            background-color: #D9BBBB;
         }
 
         .user-page-logos {
             padding: 0.5rem;
         }
+
+
     }
 }

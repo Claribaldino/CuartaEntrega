@@ -381,16 +381,16 @@
 
 .mainquienes__us__title {
   font-size: 5rem;
-  background-color: #F6F5F3;
   color: #575757;
   text-align: center;
 }
 
 .mainquienes__us__text {
-  font-size: 1.2rem;
-  color: #202020;
+  font-size: 1rem;
+  color: #575757;
   font-weight: bold;
-  text-align: justify;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .mainquienes__us__mision {
@@ -404,6 +404,9 @@
   background-color: #D9BBBB;
   border-radius: 1.5rem;
   margin: 0;
+  background-color: rgba(236, 164, 198, 0.603);
+  font-weight: bold;
+  color: #575757;
 }
 
 @media (max-width: 538px) {
@@ -466,14 +469,20 @@
   padding-bottom: 1.3rem;
 }
 
-.mainfaqs__faq .accordion-item {
-  color: #575756;
-}
-
 .mainfaqs__faq .accordion-button {
   color: #D9BBBB;
   background-color: #575756;
   border-radius: 0.3rem;
+  border-color: white;
+}
+
+.mainfaqs__faq .accordion-button:hover {
+  color: #D9BBBB;
+}
+
+.mainfaqs__faq .accordion-body {
+  color: #575756;
+  background-color: #D9BBBB;
 }
 
 .mainfaqs__faq .user-page-logos {
@@ -548,7 +557,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
   .maincontacto .contactForm {
     text-align: center;
     width: 100%;
@@ -673,7 +682,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1rem;
 }
 
 .mainproducts__container__themost {
@@ -684,6 +692,7 @@
 
 .mainproducts .card {
   border-radius: 0.5rem;
+  margin-top: 1rem;
 }
 
 .mainproducts .btn {
@@ -869,7 +878,7 @@
   border-radius: 3rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
   .mainhandmade .mainhandmade__handmademeans {
     display: -webkit-box;
     display: -ms-flexbox;
