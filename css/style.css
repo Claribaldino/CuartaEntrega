@@ -185,7 +185,37 @@
   background-position: contain;
 }
 
-@media (max-width: 538px) {
+@media (max-width: 1024px) {
+  .main__second .contenedor-img {
+    width: 240px;
+    height: 310px;
+  }
+  .main__second .contenedor-img2 {
+    width: 240px;
+    height: 310px;
+  }
+  .main__second .contenedor-frase {
+    font-size: 2rem;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .main__second .contenedor-img {
+    width: 200px;
+    height: 270px;
+  }
+  .main__second .contenedor-img2 {
+    width: 200px;
+    height: 270px;
+  }
+  .main__second .contenedor-frase {
+    font-size: 1.6rem;
+    padding: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
   .main__second {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -318,7 +348,7 @@
   font-size: 2rem;
 }
 
-@media (max-width: 538px) {
+@media (max-width: 480px) {
   .footer__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -333,6 +363,13 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .footer__container .fab {
+    font-size: 1rem;
+  }
+  .footer__container .logo {
+    width: 7rem;
+    border-radius: 5.9rem;
   }
 }
 
@@ -551,9 +588,22 @@
   border-radius: 15px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .maincontacto .contactForm {
     width: 25rem;
+  }
+  .maincontacto .imgjean {
+    margin-right: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
   }
 }
 
@@ -698,6 +748,22 @@
 .mainproducts .btn {
   background-color: #D9BBBB;
   border-color: #D9BBBB;
+}
+
+@media (max-width: 768px) {
+  .mainproducts .eteno {
+    display: none;
+  }
+  .mainproducts .card {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .mainproducts .eteno {
+    display: none;
+  }
 }
 
 .mainallproducts {
@@ -862,7 +928,7 @@
   -ms-grid-column-span: 1;
   grid-column: 1/2;
   width: 80%;
-  margin-left: 2rem;
+  margin-left: 0.7rem;
   text-align: justify;
   margin-top: 2rem;
 }
@@ -876,6 +942,28 @@
 
 .mainhandmade__handmademeans .estriasimg {
   border-radius: 3rem;
+}
+
+@media (max-width: 768px) {
+  .mainhandmade .mainhandmade__handmademeans {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .mainhandmade .estrias {
+    padding-left: 2rem;
+  }
 }
 
 @media (max-width: 480px) {

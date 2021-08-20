@@ -10,7 +10,6 @@
         justify-content: space-between;
 
         &__icons {
-
             a {
                 color: transparent;
                 text-decoration: none;
@@ -93,13 +92,22 @@
     }
 }
 
-@media (max-width:538px) {
+@media (max-width:480px) {
     .footer {
         &__container {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            
+            .fab { 
+            font-size: 1rem;
+            }
+     
+            .logo {
+                width: 7rem;
+                border-radius: 5.9rem;
+            }
         }
     }
 }

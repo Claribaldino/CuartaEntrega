@@ -56,9 +56,16 @@
         }
     }
 
-    @media (max-width:800px) {
+    @media (max-width:768px) {
         .contactForm {
             width: 25rem;
+        }
+        .imgjean {
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
         }
     }
 

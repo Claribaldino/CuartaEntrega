@@ -60,4 +60,23 @@
         background-color: #D9BBBB;
         border-color: #D9BBBB;
     }
+
+    @media (max-width:768px) {
+        .eteno {
+            display: none;
+        }
+
+        .card {
+            width: 80%;
+            margin: 20px auto;
+        }
+    }
+
+    @media (max-width:480px) {
+        .eteno {
+            display: none;
+        }
+        
+    }
+    
 }

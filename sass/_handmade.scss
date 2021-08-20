@@ -49,7 +49,7 @@
         .parrafo {
             grid-column: 1/2;
             width: 80%;
-            margin-left: 2rem;
+            margin-left: 0.7rem;
             text-align: justify;
             margin-top: 2rem;
         }
@@ -64,17 +64,37 @@
             border-radius: 3rem;
         }
     }
+
+
+    @media (max-width:768px) {
+
+        .mainhandmade__handmademeans {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .estrias {
+            padding-left: 2rem;
+        }
+    }
+
     @media (max-width:480px) {
 
         .mainhandmade__handmademeans {
             display: flex;
             flex-direction: column;
         }
+
         .title {
-          padding-left: 4rem;
+            padding-left: 4rem;
         }
+
         .estrias {
             padding-left: 3rem;
-          }
+        }
+
     }
-    }
+}
